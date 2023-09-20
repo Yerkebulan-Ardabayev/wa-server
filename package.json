@@ -1,0 +1,30 @@
+{
+	"name": "workout",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"keywords": [
+		"workout"
+	],
+	"author": "[Yerkebulan Ardabayev]",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^5.3.1",
+		"colors": "^1.4.0",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"morgan": "^1.10.0",
+		"nodemon": "^3.0.1",
+		"pg": "^8.11.3"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.2.0",
+		"prettier": "3.0.3",
+		"prisma": "^5.3.1"
+	}
+}
